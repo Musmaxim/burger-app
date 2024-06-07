@@ -31,7 +31,7 @@ const Hero = () => {
       additionalTransfrom={0}
       arrows={false}
       responsive={responsive}
-      autoPlay={false}
+      autoPlay={true}
       autoPlaySpeed={6000}
       centerMode={false}
       infinite

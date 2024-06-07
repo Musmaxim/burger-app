@@ -1,9 +1,11 @@
+import Features from "./Features/Features"
 import Hero from "./Hero/Hero"
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Hero/>
+        <Features/>
     </div>
   )
 }
