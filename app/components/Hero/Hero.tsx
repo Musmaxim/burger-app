@@ -38,7 +38,7 @@ const Hero = () => {
       itemClass="item"
       showDots={true}
     >
-      <div className="w-[100%] h-[60vh] flex items-center justify-center flex-col bg-green-700 clip_path">
+      <div className="w-[100%] h-[60vh] flex items-center justify-center flex-col bg-green-700 md:clip_path">
         <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
           <Image src={BurgerImg1} alt="Burger 1" className="hidden md:block" />
           <div>
@@ -65,7 +65,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[100%] h-[60vh] flex items-center justify-center flex-col bg-yellow-700 clip_path">
+      <div className="w-[100%] h-[60vh] flex items-center justify-center flex-col bg-yellow-700 md:clip_path">
         <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
           <Image src={BurgerImg2} alt="Burger 2" className="hidden md:block"/>
           <div>
