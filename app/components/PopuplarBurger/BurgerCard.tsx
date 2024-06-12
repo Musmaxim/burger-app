@@ -12,7 +12,7 @@ interface Props {
 
 const BurgerCard = ({ title, image, price, review }: Props) => {
   return (
-    <div className="bg-green-600 p-6 rounded-lg m-3">
+    <div className="bg-white p-6 rounded-lg m-3">
       <div className="w-[200px] mx-auto h-[200px]">
         <Image
           src={image}
