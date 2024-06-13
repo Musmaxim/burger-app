@@ -9,7 +9,7 @@ const ReservationForm = () => {
         Забронируй хавчик
       </h1>
       <p className="uppercase text-[20px] md:text-[25px] text-white font-semibold text-center">
-        Всего пара кликов и ты сытый!
+        Всего пара кликов!
       </p>
       <div className="mt-[2rem]">
         <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 items-center w-[80%] mx-auto justify-between space-x-4">

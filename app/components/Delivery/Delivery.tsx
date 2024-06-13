@@ -9,7 +9,7 @@ const Delivery = () => {
   return (
     <div className="pt-[8rem] pb-[3rem]">
       <div className="w-[80%] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-[3rem]">
-        <div>
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center">
           <Image src={DeliveryImage} alt="delivery" />
         </div>
         <div>
